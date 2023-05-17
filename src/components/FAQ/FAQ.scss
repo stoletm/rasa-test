@@ -26,7 +26,11 @@
     &__questions {
         background: #FFFFFF;
         border-radius: 16px;
-        -webkit-appearance: none;
+        appearance: none;
+        background-image: url('../../resources/images/select-arrow.svg');
+        background-repeat: no-repeat;
+        background-position: right 0.7rem top 50%;
+        background-size: 0.65rem auto;
         width: 100%;
         padding: 16px;
         font-weight: 400;
@@ -36,6 +40,9 @@
         border: none;
         @media (min-width: 767px) {
             padding: 16px 24px;
+        }
+        @media (min-width: 767px) {
+            background-position: right 16px top 50%;
         }
     }
 }

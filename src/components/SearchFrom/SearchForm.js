@@ -42,11 +42,11 @@ const SearchForm = (props) => {
                 <div className="searchform__filters_row">
                     <div className="searchform__filters_price">
                         Цена
-                        <input type="text" placeholder="От"/>
+                        <input type="number" placeholder="От"/>
                     </div>
                     <div className="searchform__filters_price">
                         <span>цена</span>
-                        <input type="text" placeholder="До"/>
+                        <input type="number" placeholder="До"/>
                     </div>
                 </div>
             </div>
