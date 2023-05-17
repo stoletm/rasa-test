@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/rasa-test/static/css/main.d0c4e146.css",
+    "main.js": "/rasa-test/static/js/main.594658a4.js",
+    "static/media/Mobile.png": "/rasa-test/static/media/Mobile.5c486cc5904629cefacb.png",
+    "static/media/Desktop-Tablet.png": "/rasa-test/static/media/Desktop-Tablet.ee84707727096b29878a.png",
+    "static/media/Honda Freed.jpg": "/rasa-test/static/media/Honda Freed.cc369ffa3d55699d6a24.jpg",
+    "static/media/Kia Sportage 2 4.jpg": "/rasa-test/static/media/Kia Sportage 2 4.4a2405cf2bfc50ab1d91.jpg",
+    "static/media/Skoda Karoq.jpg": "/rasa-test/static/media/Skoda Karoq.61d0c0d5c362cd18eac9.jpg",
+    "static/media/Kia K5 Prestige 2 5л.jpg": "/rasa-test/static/media/Kia K5 Prestige 2 5л.d96592ee2eed1d5debd3.jpg",
+    "static/media/Citroen c4.jpg": "/rasa-test/static/media/Citroen c4.ed6550d80ad08bfa0107.jpg",
+    "static/media/KIA Sportage LUXE+2L.jpg": "/rasa-test/static/media/KIA Sportage LUXE+2L.1c9b9fa800eb0faf7d91.jpg",
+    "static/media/Mercedes-benz Gls 400 D 4m Luxury.jpg": "/rasa-test/static/media/Mercedes-benz Gls 400 D 4m Luxury.1779f3ace2922c8d7673.jpg",
+    "static/media/Mercedes-benz Gle 300 D 4matic Sport.jpg": "/rasa-test/static/media/Mercedes-benz Gle 300 D 4matic Sport.d25cd789939aa782e760.jpg",
+    "static/media/Mercedes-benz Gle 350 D 4matic купе.jpg": "/rasa-test/static/media/Mercedes-benz Gle 350 D 4matic купе.a9df644ea9184988cbfe.jpg",
+    "static/media/Renault Arkana drive.jpg": "/rasa-test/static/media/Renault Arkana drive.2e7cd2214b10f5d7fbaf.jpg",
+    "static/media/Volkswagen Tiguan PA.jpg": "/rasa-test/static/media/Volkswagen Tiguan PA.6aa5cbf72a13d9a55b07.jpg",
+    "static/media/BMW X7.jpg": "/rasa-test/static/media/BMW X7.3fe0f4695125234beed5.jpg",
+    "index.html": "/rasa-test/index.html",
+    "main.d0c4e146.css.map": "/rasa-test/static/css/main.d0c4e146.css.map",
+    "main.594658a4.js.map": "/rasa-test/static/js/main.594658a4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d0c4e146.css",
+    "static/js/main.594658a4.js"
+  ]
+}
