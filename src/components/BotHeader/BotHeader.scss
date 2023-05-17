@@ -1,0 +1,80 @@
+.botheader {
+    @media (min-width:1199px) {
+        flex-direction: row;
+        padding: 0 60px;
+    }
+    border-top: 1px solid #E0E1E6;
+    display: flex;
+    flex-direction: column;
+    background: #FFF;
+    &__logo {
+        @media (min-width:767px) {
+            height: 62px;
+            border-top: none;
+            padding: 0;
+        }
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 16px;
+        img {
+            @media (min-width:767px), (max-width:1199px) {
+                padding-left: 16px;
+            }
+        }
+    }
+    &__nav {
+        @media (min-width:1199px) {
+            border:none;
+            padding: 24px;
+        }
+        display: flex;
+        border: 1px solid #E0E1E6;
+        overflow: hidden;
+        flex-wrap: nowrap;
+        align-items: center;
+        padding: 16px;
+        gap: 16px;
+        :last-child {
+            margin: -10px;
+        }
+        &_item {
+            flex-wrap: nowrap;
+            overflow:hidden;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 20px;
+            color: #111111;
+        }
+    }
+    &__buttons {
+        @media (min: width 1199px) {
+            padding: 24px 0;
+        }
+        display: flex;
+        padding: 16px 18px;
+        justify-content: space-between;
+        align-items: center;
+        @media (min-width:767px) {
+            gap: 16px;
+        }
+        &_call {
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 20px;
+            color: #25B456;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }   
+        &_login {
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 20px;
+            color: #760135;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+    }
+}

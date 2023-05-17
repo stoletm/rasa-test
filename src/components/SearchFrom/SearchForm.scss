@@ -1,0 +1,171 @@
+.searchform {
+    margin-top: 35px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+    padding: 0 16px;
+    background: #F7F9FA;
+    max-width: 328px;
+    @media (min-width:767px) {
+        max-width: 736px;
+    }
+    @media (min-width: 1199px) {
+        max-width: 1094px;
+    }
+    &__header {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+    &__title {
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 36px;
+        color: #000;
+    }
+    &__collapse {
+        display: flex;
+        padding: 10px 50px;
+        justify-content: center;
+        width: 328px;
+        max-width: 328px;
+        align-items: center;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 20px;
+        color: #760135;
+        background: #FFF;
+        border-radius: 4px;
+        border: none;
+        cursor: pointer;
+        &:active {
+            filter: grayscale(1);
+        }
+    }
+    &__filters {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+        gap: 16px;
+        &_row {
+            width: 100%;
+            display: flex;
+            gap: 16px;
+            align-items: center;
+            justify-content: center;      
+        }
+        &_model, &_year, &_price {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 20px;
+            color: #000000;
+            select, input {
+                background: #F3F3F5;
+                -webkit-appearance: none;
+                width: 156px;
+                padding: 11px 16px;
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 18px;
+                color: #000000;
+                opacity: 0.5;
+                border: 1px solid #ECEDF0;
+                border-radius: 8px;     
+            }
+            span {
+                opacity: 0;
+            }
+        }
+    }
+}
+
+@media(min-width:767px) {
+    .searchform {
+        gap: 25px;
+        &__header {
+            gap: 174px;
+            padding: 0 16px;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: row;
+            align-items: center;
+        }   
+        &__title {
+            font-size: 32px;
+            line-height: 42px;
+        }
+        &__collapse {
+            margin: 0;
+            width: 256px;
+            padding: 10px 20px;
+        }
+        &__filters {
+            flex-wrap: nowrap;
+            flex-direction: row;
+            gap: 20px;
+            &_row {
+                gap: 20px;
+                &:nth-of-type(2) {
+                    gap: 48px;
+                }
+            }
+            &_prices span {
+                    opacity: 0;
+                }
+            &_model select{
+                width: 200px;
+            }
+            &_year select {
+                width: 153px;
+            }
+            &_price input {
+                width: 147px;
+            }
+        }
+    }
+}
+
+@media (min-width:1199px) {
+    .searchform {
+        padding: 0;
+        gap: 25px;
+        margin-top: 35px;
+
+        &__header {
+            padding: 0;
+            display: flex;
+            gap: 533px;
+            justify-content: center;
+            flex-direction: row;
+            align-items: center;
+        }   
+        &__collapse {
+            width: 256px;
+        }
+        &__filters {
+            gap: 16px;
+            &_row {
+                display: flex;
+                gap: 24px;
+                &:nth-of-type(2) {
+                    gap: 54px;
+                }
+            }
+            &_model select{
+                width: 441px;
+            }
+            &_year select {
+                width: 219px;
+            }
+            &_price input {
+                width: 170px;
+            }
+        }
+    }
+}

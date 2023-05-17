@@ -1,0 +1,65 @@
+.autocard {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    gap: 16px;
+    max-width: 328px;
+    width: 100%;
+    background: #FFFFFF;
+    border-radius: 16px;
+    font-weight: 500;
+    @media (min-width: 767px) {
+        max-width: 360px;
+    }
+    @media (min-width: 1199px) {
+        max-width: 354px;
+    }
+    &__image { 
+        align-self: center;
+        border-radius: 16px;
+        max-height: 200px;
+        img {
+            width: 296px;
+            @media(min-width: 767px) {
+                width: 328px;
+            }
+            @media(min-width: 767px) {
+                width: 322px;
+            }
+        }
+    }
+    &__content {
+        display: flex;
+        flex-direction: column;
+        color: #282828;
+        &_title {
+            font-size: 17px;
+            line-height: 22px;
+            color: #0D0D0D;
+        }
+        &_city {
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 20px;
+            margin: 16px 0 8px;
+        }
+        .price {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            &_price {
+                font-size: 17px;
+                line-height: 22px;
+                color: #760135;
+            }
+            &_link {
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 17px;
+                :hover {
+                    color: #760135;
+                }
+            }
+        }
+    }
+}

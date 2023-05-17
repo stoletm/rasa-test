@@ -1,0 +1,26 @@
+.application {
+    padding: 16px;
+    max-width: 328px;
+    width: 100%;
+    background: #FFFFFF;
+    border-radius: 16px; 
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;   
+    color: #111;
+    text-align: center;
+    margin-top: 10px;
+    @media(min-width:767px) {
+        padding: 40px;
+        max-width: 736px;
+        margin-top: 0;
+    }
+    @media(min-width:1199px) {
+        max-width: 1094px;
+    }
+    a {
+        color: #760135;
+        font-weight: 500;
+        margin-left: 4px;
+    }
+}
