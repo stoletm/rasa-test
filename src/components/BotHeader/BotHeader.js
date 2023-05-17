@@ -24,21 +24,23 @@ const BotHeader = () => {
 
 const DesktopView = () => (
     <nav className="botheader">
-            <div className="botheader__logo">
-                <img src={logo} alt="logo"/>
-            </div>
-            <ul className="botheader__nav">
-                <li className="botheader__nav_item">Кредиты</li>
-                <li className="botheader__nav_item">Вклады</li>
-                <li className="botheader__nav_item">Обмен валют</li>
-                <li className="botheader__nav_item">Карты</li>
-                <li className="botheader__nav_item">Ипотека</li>
-                <li className="botheader__nav_item">Переводы</li>
-                <li className="botheader__nav_item">Страхование</li>
-                <li className="botheader__nav_item">Страхование</li>
-                <li className="botheader__nav_item">Сервисы</li>
-                <ArrowDownIcon/>
-            </ul>
+            <div className="botheader__nav-container">
+                <div className="botheader__logo">
+                    <img src={logo} alt="logo"/>
+                </div>
+                <ul className="botheader__nav">
+                    <li className="botheader__nav_item">Кредиты</li>
+                    <li className="botheader__nav_item">Вклады</li>
+                    <li className="botheader__nav_item">Обмен валют</li>
+                    <li className="botheader__nav_item">Карты</li>
+                    <li className="botheader__nav_item">Ипотека</li>
+                    <li className="botheader__nav_item">Переводы</li>
+                    <li className="botheader__nav_item">Страхование</li>
+                    <li className="botheader__nav_item">Страхование</li>
+                    <li className="botheader__nav_item">Сервисы</li>
+                    <ArrowDownIcon/>
+                </ul>
+                </div>
             <div className="botheader__buttons">
                 <div className="botheader__buttons_call">
                     <PhoneIcon/>
