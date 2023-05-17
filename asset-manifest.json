@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/rasa-test/static/css/main.616fad2a.css",
-    "main.js": "/rasa-test/static/js/main.d8075ea7.js",
+    "main.css": "/rasa-test/static/css/main.1b364cfe.css",
+    "main.js": "/rasa-test/static/js/main.b23ab569.js",
     "static/media/Mobile.png": "/rasa-test/static/media/Mobile.5c486cc5904629cefacb.png",
     "static/media/Desktop-Tablet.png": "/rasa-test/static/media/Desktop-Tablet.ee84707727096b29878a.png",
     "static/media/Honda Freed.jpg": "/rasa-test/static/media/Honda Freed.cc369ffa3d55699d6a24.jpg",
@@ -18,11 +18,11 @@
     "static/media/BMW X7.jpg": "/rasa-test/static/media/BMW X7.3fe0f4695125234beed5.jpg",
     "index.html": "/rasa-test/index.html",
     "static/media/select-arrow.svg": "/rasa-test/static/media/select-arrow.173f709ee8f9ad2e5d96.svg",
-    "main.616fad2a.css.map": "/rasa-test/static/css/main.616fad2a.css.map",
-    "main.d8075ea7.js.map": "/rasa-test/static/js/main.d8075ea7.js.map"
+    "main.1b364cfe.css.map": "/rasa-test/static/css/main.1b364cfe.css.map",
+    "main.b23ab569.js.map": "/rasa-test/static/js/main.b23ab569.js.map"
   },
   "entrypoints": [
-    "static/css/main.616fad2a.css",
-    "static/js/main.d8075ea7.js"
+    "static/css/main.1b364cfe.css",
+    "static/js/main.b23ab569.js"
   ]
 }
