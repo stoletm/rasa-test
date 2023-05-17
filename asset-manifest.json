@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/rasa-test/static/css/main.d0c4e146.css",
-    "main.js": "/rasa-test/static/js/main.594658a4.js",
+    "main.css": "/rasa-test/static/css/main.4d1a31b4.css",
+    "main.js": "/rasa-test/static/js/main.d8075ea7.js",
     "static/media/Mobile.png": "/rasa-test/static/media/Mobile.5c486cc5904629cefacb.png",
     "static/media/Desktop-Tablet.png": "/rasa-test/static/media/Desktop-Tablet.ee84707727096b29878a.png",
     "static/media/Honda Freed.jpg": "/rasa-test/static/media/Honda Freed.cc369ffa3d55699d6a24.jpg",
@@ -17,11 +17,12 @@
     "static/media/Volkswagen Tiguan PA.jpg": "/rasa-test/static/media/Volkswagen Tiguan PA.6aa5cbf72a13d9a55b07.jpg",
     "static/media/BMW X7.jpg": "/rasa-test/static/media/BMW X7.3fe0f4695125234beed5.jpg",
     "index.html": "/rasa-test/index.html",
-    "main.d0c4e146.css.map": "/rasa-test/static/css/main.d0c4e146.css.map",
-    "main.594658a4.js.map": "/rasa-test/static/js/main.594658a4.js.map"
+    "static/media/select-arrow.svg": "/rasa-test/static/media/select-arrow.173f709ee8f9ad2e5d96.svg",
+    "main.4d1a31b4.css.map": "/rasa-test/static/css/main.4d1a31b4.css.map",
+    "main.d8075ea7.js.map": "/rasa-test/static/js/main.d8075ea7.js.map"
   },
   "entrypoints": [
-    "static/css/main.d0c4e146.css",
-    "static/js/main.594658a4.js"
+    "static/css/main.4d1a31b4.css",
+    "static/js/main.d8075ea7.js"
   ]
 }
