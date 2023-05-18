@@ -90,13 +90,14 @@
     .searchform {
         gap: 25px;
         max-width: 736px;
+        padding: 0;
         &__header {
             gap: 174px;
-            padding: 0 16px;
             align-items: center;
             justify-content: space-between;
             flex-direction: row;
-            align-items: center;
+            padding: 0;
+            width: 100%;
         }   
         &__title {
             font-size: 32px;
@@ -135,17 +136,13 @@
 
 @media (min-width:1199px) {
     .searchform {
-        padding: 0;
         gap: 25px;
         margin-top: 35px;
         max-width: 1094px;
         &__header {
-            padding: 0;
-            display: flex;
-            justify-content: space-between;
-            flex-direction: row;
             align-items: start;
             width: 100%;
+
         }   
         &__collapse {
             width: 256px;

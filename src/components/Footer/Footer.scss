@@ -176,10 +176,11 @@
         gap: 16px;
         @media (min-width: 767px) {
             flex-direction: row;
-            gap: 25px;
+            gap: 90px;
         }
         @media (min-width: 1199px) {
             flex-direction: column;
+            gap: 24px;
         }
         &_number {
             display: flex;
