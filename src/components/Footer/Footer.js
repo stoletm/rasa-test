@@ -16,11 +16,11 @@ const Footer = () => {
                 <div className="footer__contacts contacts">
                     <div className="contacts__phones">
                         <div className="contacts__phones_number">
-                            <p>8 800 775-56-06</p>
+                            <a href="tel:88007755606">8 800 775-56-06</a>
                             <p>Для звонков по России (бесплатно)</p>
                         </div>
                         <div className="contacts__phones_number">
-                            <p>+7 495 232-37-23</p>
+                            <a href="tel:+74952323723">+7 495 232-37-23</a>
                             <p>Для блокировки карт (круглосуточно)</p>
                         </div>
                     </div>
@@ -106,16 +106,36 @@ const MobileView = () => {
                 
                 {privates 
                     ? <ul className="navigation__list">
-                        <li className="navigation__list_item">Банковские карты</li>
-                        <li className="navigation__list_item">Кредиты</li>
-                        <li className="navigation__list_item">Вклады</li>
-                        <li className="navigation__list_item">Ипотека</li>
-                        <li className="navigation__list_item">Страхование</li>
-                        <li className="navigation__list_item">Сейфовые ячейки</li>
-                        <li className="navigation__list_item">Открытие счетов</li>
-                        <li className="navigation__list_item">Обмен валюты</li>
-                        <li className="navigation__list_item">Переводы</li>
-                        <li className="navigation__list_item">Маркетплейс</li>
+                        <li className="navigation__list_item">
+                            <a href="#">Банковские карты</a>
+                        </li>
+                        <li className="navigation__list_item">
+                            <a href="#">Кредиты</a>
+                        </li>
+                        <li className="navigation__list_item">
+                            <a href="#">Вклады</a>
+                        </li>
+                        <li className="navigation__list_item">
+                            <a href="#">Ипотека</a>
+                        </li>
+                        <li className="navigation__list_item">
+                            <a href="#">Страхование</a>
+                        </li>
+                        <li className="navigation__list_item">
+                            <a href="#">Сейфовые ячейки</a>
+                        </li>
+                        <li className="navigation__list_item">
+                            <a href="#">Открытие счетов</a>
+                        </li>
+                        <li className="navigation__list_item">
+                            <a href="#">Обмен валюты</a>
+                        </li>
+                        <li className="navigation__list_item">
+                            <a href="#">Переводы</a>
+                        </li>
+                        <li className="navigation__list_item">
+                            <a href="#">Переводы</a>
+                        </li>
                     </ul>
                     : null}
             </div>
@@ -129,17 +149,39 @@ const MobileView = () => {
                 </p>
                 {business
                     ? <ul className="navigation__list">
-                        <li className="navigation__list_item">Экспресс-МСБ</li>
-                        <li className="navigation__list_item">Расчетно-кассовое обслуживание</li>
-                        <li className="navigation__list_item">Онлайн резервирование счета</li>
-                        <li className="navigation__list_item">Внешнеэкономическая деятельность</li>
-                        <li className="navigation__list_item">Зарплатный проект</li>
-                        <li className="navigation__list_item">Овердрафт</li>
-                        <li className="navigation__list_item">Кредит</li>
-                        <li className="navigation__list_item">Лизинг</li>
-                        <li className="navigation__list_item">Депозиты</li>
-                        <li className="navigation__list_item">Банковские гарантии</li>
-                        <li className="navigation__list_item">Факторинг</li>
+                        <li className="navigation__list_item">
+                            <a href="#">Экспресс-МСБ</a>
+                        </li>
+                        <li className="navigation__list_item">
+                            <a href="#">Расчетно-кассовое обслуживание</a>
+                        </li>
+                        <li className="navigation__list_item">
+                            <a href="#">Онлайн резервирование счета</a>
+                        </li>
+                        <li className="navigation__list_item">
+                            <a href="#">Внешнеэкономическая деятельность</a>
+                        </li>
+                        <li className="navigation__list_item">
+                            <a href="#">Зарплатный проект</a>
+                        </li>
+                        <li className="navigation__list_item">
+                            <a href="#">Овердрафт</a>
+                        </li>
+                        <li className="navigation__list_item">
+                            <a href="#">Кредит</a>
+                        </li>
+                        <li className="navigation__list_item">
+                            <a href="#">Лизинг</a>
+                        </li>
+                        <li className="navigation__list_item">
+                            <a href="#">Депозиты</a>
+                        </li>
+                        <li className="navigation__list_item">
+                            <a href="#">Банковские гарантии</a>
+                        </li>
+                        <li className="navigation__list_item">
+                            <a href="#">Факторинг</a>
+                        </li>
                     </ul>
                     : null}
             </div>
@@ -153,15 +195,33 @@ const MobileView = () => {
                 </p>
                 {about
                     ? <ul className="navigation__list">
-                        <li className="navigation__list_item">Новости</li>
-                        <li className="navigation__list_item">Вакансии</li>
-                        <li className="navigation__list_item">Офисы</li>
-                        <li className="navigation__list_item">Инвестиционные услуги</li>
-                        <li className="navigation__list_item">О банке</li>
-                        <li className="navigation__list_item">Реквизиты</li>
-                        <li className="navigation__list_item">Тарифы</li>
-                        <li className="navigation__list_item">Монеты</li>
-                        <li className="navigation__list_item">Непрофильные активы</li>
+                        <li className="navigation__list_item">
+                            <a href="#">Новости</a>
+                        </li>
+                        <li className="navigation__list_item">
+                            <a href="#">Вакансии</a>
+                        </li>
+                        <li className="navigation__list_item">
+                            <a href="#">Офисы</a>
+                        </li>
+                        <li className="navigation__list_item">
+                            <a href="#">Инвестиционные услуги</a>
+                        </li>
+                        <li className="navigation__list_item">
+                            <a href="#">О банке</a>
+                        </li>
+                        <li className="navigation__list_item">
+                            <a href="#">Реквизиты</a>
+                        </li>
+                        <li className="navigation__list_item">
+                            <a href="#">Тарифы</a>
+                        </li>
+                        <li className="navigation__list_item">
+                            <a href="#">Монеты</a>
+                        </li>
+                        <li className="navigation__list_item">
+                            <a href="#">Непрофильные активы</a>
+                        </li>
                     </ul>
                     : null}
             </div>
@@ -184,46 +244,106 @@ const TabletDesktopView = () => {
             <div className="navigation__privates">
                 <p className="navigation__title">Частным лицам</p>
                 <ul className="navigation__list">
-                    <li className="navigation__list_item">Банковские карты</li>
-                    <li className="navigation__list_item">Кредиты</li>
-                    <li className="navigation__list_item">Вклады</li>
-                    <li className="navigation__list_item">Ипотека</li>
-                    <li className="navigation__list_item">Страхование</li>
-                    <li className="navigation__list_item">Сейфовые ячейки</li>
-                    <li className="navigation__list_item">Открытие счетов</li>
-                    <li className="navigation__list_item">Обмен валюты</li>
-                    <li className="navigation__list_item">Переводы</li>
-                    <li className="navigation__list_item">Маркетплейс</li>
+                    <li className="navigation__list_item">
+                        <a href="#">Банковские карты</a>
+                    </li>
+                    <li className="navigation__list_item">
+                        <a href="#">Кредиты</a>
+                    </li>
+                    <li className="navigation__list_item">
+                        <a href="#">Вклады</a>
+                    </li>
+                    <li className="navigation__list_item">
+                        <a href="#">Ипотека</a>
+                    </li>
+                    <li className="navigation__list_item">
+                        <a href="#">Страхование</a>
+                    </li>
+                    <li className="navigation__list_item">
+                        <a href="#">Сейфовые ячейки</a>
+                    </li>
+                    <li className="navigation__list_item">
+                        <a href="#">Открытие счетов</a>
+                    </li>
+                    <li className="navigation__list_item">
+                        <a href="#">Обмен валюты</a>
+                    </li>
+                    <li className="navigation__list_item">
+                        <a href="#">Переводы</a>
+                    </li>
+                    <li className="navigation__list_item">
+                        <a href="#">Переводы</a>
+                    </li>
                 </ul>
             </div>
             <div className="navigation__business">
                 <p className="navigation__title">Бизнесу</p>
                 <ul className="navigation__list">
-                    <li className="navigation__list_item">Экспресс-МСБ</li>
-                    <li className="navigation__list_item">Расчетно-кассовое обслуживание</li>
-                    <li className="navigation__list_item">Онлайн резервирование счета</li>
-                    <li className="navigation__list_item">Внешнеэкономическая деятельность</li>
-                    <li className="navigation__list_item">Зарплатный проект</li>
-                    <li className="navigation__list_item">Овердрафт</li>
-                    <li className="navigation__list_item">Кредит</li>
-                    <li className="navigation__list_item">Лизинг</li>
-                    <li className="navigation__list_item">Депозиты</li>
-                    <li className="navigation__list_item">Банковские гарантии</li>
-                    <li className="navigation__list_item">Факторинг</li>
+                    <li className="navigation__list_item">
+                        <a href="#">Экспресс-МСБ</a>
+                    </li>
+                    <li className="navigation__list_item">
+                        <a href="#">Расчетно-кассовое обслуживание</a>
+                    </li>
+                    <li className="navigation__list_item">
+                        <a href="#">Онлайн резервирование счета</a>
+                    </li>
+                    <li className="navigation__list_item">
+                        <a href="#">Внешнеэкономическая деятельность</a>
+                    </li>
+                    <li className="navigation__list_item">
+                        <a href="#">Зарплатный проект</a>
+                    </li>
+                    <li className="navigation__list_item">
+                        <a href="#">Овердрафт</a>
+                    </li>
+                    <li className="navigation__list_item">
+                        <a href="#">Кредит</a>
+                    </li>
+                    <li className="navigation__list_item">
+                        <a href="#">Лизинг</a>
+                    </li>
+                    <li className="navigation__list_item">
+                        <a href="#">Депозиты</a>
+                    </li>
+                    <li className="navigation__list_item">
+                        <a href="#">Банковские гарантии</a>
+                    </li>
+                    <li className="navigation__list_item">
+                        <a href="#">Факторинг</a>
+                    </li>
                 </ul>
             </div>
             <div className="navigation__about">
                 <p className="navigation__title">О банке</p>
                 <ul className="navigation__list">
-                    <li className="navigation__list_item">Новости</li>
-                    <li className="navigation__list_item">Вакансии</li>
-                    <li className="navigation__list_item">Офисы</li>
-                    <li className="navigation__list_item">Инвестиционные услуги</li>
-                    <li className="navigation__list_item">О банке</li>
-                    <li className="navigation__list_item">Реквизиты</li>
-                    <li className="navigation__list_item">Тарифы</li>
-                    <li className="navigation__list_item">Монеты</li>
-                    <li className="navigation__list_item">Непрофильные активы</li>
+                    <li className="navigation__list_item">
+                        <a href="#">Новости</a>
+                    </li>
+                    <li className="navigation__list_item">
+                        <a href="#">Вакансии</a>
+                    </li>
+                    <li className="navigation__list_item">
+                        <a href="#">Офисы</a>
+                    </li>
+                    <li className="navigation__list_item">
+                        <a href="#">Инвестиционные услуги</a>
+                    </li>
+                    <li className="navigation__list_item">
+                        <a href="#">О банке</a>
+                    </li>
+                    <li className="navigation__list_item">
+                        <a href="#">Реквизиты</a>
+                    </li>
+                    <li className="navigation__list_item">
+                        <a href="#">Тарифы</a>
+                    </li>
+                    <li className="navigation__list_item">
+                        <a href="#">Монеты</a>
+                    </li>
+                    <li className="navigation__list_item">
+                        <a href="#">Непрофильные активы</a>
+                    </li>
                 </ul>
             </div>
         </div>

@@ -12,12 +12,16 @@ const BestsellerCard = (props) => {
             <div className="bestseller__carousel">
                 {isDesktop
                     ? <>
-                        <img src={img} alt="title" />
+                        <a href="#">
+                            <img src={img} alt="title" />
+                        </a>
                         <BigArrowRightIcon/>
                     </>
                     : <>
                         <ArrowLeftIcon/>
-                        <img src={img} alt="title" />
+                        <a href="#">
+                            <img src={img} alt="title" />
+                        </a>
                         <ArrowRightIcon color="black"/>
                     </>
                 }

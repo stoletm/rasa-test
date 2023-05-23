@@ -5,9 +5,9 @@ const CarCard = (props) => {
 
     return (
         <div className="autocard">
-            <div className="autocard__image">
+            <a href="#" className="autocard__image">
                 <img src={img} alt="" height={200}/>
-            </div>
+            </a>
             <div className="autocard__content">
                 <div className="autocard__content_title">{title}</div>
                 <div className="autocard__content_city">{city}</div>

@@ -29,26 +29,44 @@ const DesktopView = () => (
                     <img src={logo} alt="logo"/>
                 </div>
                 <ul className="botheader__nav">
-                    <li className="botheader__nav_item">Кредиты</li>
-                    <li className="botheader__nav_item">Вклады</li>
-                    <li className="botheader__nav_item">Обмен валют</li>
-                    <li className="botheader__nav_item">Карты</li>
-                    <li className="botheader__nav_item">Ипотека</li>
-                    <li className="botheader__nav_item">Переводы</li>
-                    <li className="botheader__nav_item">Страхование</li>
-                    <li className="botheader__nav_item">Страхование</li>
-                    <li className="botheader__nav_item">Сервисы</li>
+                    <li className="botheader__nav_item">
+                        <a href="#">Кредиты</a>
+                    </li>
+                    <li className="botheader__nav_item">
+                        <a href="#">Вклады</a>
+                    </li>
+                    <li className="botheader__nav_item">
+                        <a href="#">Обмен валют</a>
+                    </li>
+                    <li className="botheader__nav_item">
+                        <a href="#">Карты</a>
+                    </li>
+                    <li className="botheader__nav_item">
+                        <a href="#">Ипотека</a>
+                    </li>
+                    <li className="botheader__nav_item">
+                        <a href="#">Переводы</a>
+                    </li>
+                    <li className="botheader__nav_item">
+                        <a href="#">Страхование</a>
+                    </li>
+                    <li className="botheader__nav_item">
+                        <a href="#">Страхование</a>
+                    </li>
+                    <li className="botheader__nav_item">
+                        <a href="#">Сервисы</a>
+                    </li>
                     <ArrowDownIcon/>
                 </ul>
                 </div>
             <div className="botheader__buttons">
                 <div className="botheader__buttons_call">
                     <PhoneIcon/>
-                    Заказать звонок
+                    <a href="#">Заказать звонок</a>
                 </div>
                 <div className="botheader__buttons_login">
                     <LoginIcon/>
-                    Интернет-банк
+                    <a href="#">Интернет-банк</a>
                 </div>
             </div>
         </nav>
@@ -71,12 +89,24 @@ const TabletView = () => (
                 </div>
             </div>
             <ul className="botheader__nav">
-                <li className="botheader__nav_item">Кредиты</li>
-                <li className="botheader__nav_item">Вклады</li>
-                <li className="botheader__nav_item">Обмен валют</li>
-                <li className="botheader__nav_item">Карты</li>
-                <li className="botheader__nav_item">Ипотека</li>
-                <li className="botheader__nav_item">Ещё</li>
+                <li className="botheader__nav_item">
+                    <a href="#">Кредиты</a>
+                </li>
+                <li className="botheader__nav_item">
+                    <a href="#">Вклады</a>
+                </li>
+                <li className="botheader__nav_item">
+                    <a href="#">Обмен валют</a>
+                </li>
+                <li className="botheader__nav_item">
+                    <a href="#">Карты</a>
+                </li>
+                <li className="botheader__nav_item">
+                    <a href="#">Ипотека</a>
+                </li>
+                <li className="botheader__nav_item">
+                    <a href="#">Ещё</a>
+                </li>
                 <ArrowDownIcon/>
             </ul>
             
@@ -90,11 +120,21 @@ const MobileView = () => (
                 <MenuIcon/>
             </div>
             <ul className="botheader__nav">
-                <li className="botheader__nav_item">Кредиты</li>
-                <li className="botheader__nav_item">Вклады</li>
-                <li className="botheader__nav_item">Обмен валют</li>
-                <li className="botheader__nav_item">Карты</li>
-                <li className="botheader__nav_item">Ипотека</li>
+                <li className="botheader__nav_item">
+                    <a href="#">Кредиты</a>
+                </li>
+                <li className="botheader__nav_item">
+                    <a href="#">Вклады</a>
+                </li>
+                <li className="botheader__nav_item">
+                    <a href="#">Обмен валют</a>
+                </li>
+                <li className="botheader__nav_item">
+                    <a href="#">Карты</a>
+                </li>
+                <li className="botheader__nav_item">
+                    <a href="#">Ипотека</a>
+                </li>
             </ul>
             <div className="botheader__buttons">
                 <div className="botheader__buttons_call">
