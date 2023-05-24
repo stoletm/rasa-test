@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/rasa-test/static/css/main.bc13be51.css",
-    "main.js": "/rasa-test/static/js/main.d38b2e3a.js",
+    "main.js": "/rasa-test/static/js/main.5eba2dc5.js",
     "static/media/Mobile.png": "/rasa-test/static/media/Mobile.5c486cc5904629cefacb.png",
     "static/media/Desktop-Tablet.png": "/rasa-test/static/media/Desktop-Tablet.ee84707727096b29878a.png",
     "static/media/Honda Freed.jpg": "/rasa-test/static/media/Honda Freed.cc369ffa3d55699d6a24.jpg",
@@ -20,10 +20,10 @@
     "index.html": "/rasa-test/index.html",
     "static/media/select-arrow.svg": "/rasa-test/static/media/select-arrow.3b2bf07f3bab2a757524.svg",
     "main.bc13be51.css.map": "/rasa-test/static/css/main.bc13be51.css.map",
-    "main.d38b2e3a.js.map": "/rasa-test/static/js/main.d38b2e3a.js.map"
+    "main.5eba2dc5.js.map": "/rasa-test/static/js/main.5eba2dc5.js.map"
   },
   "entrypoints": [
     "static/css/main.bc13be51.css",
-    "static/js/main.d38b2e3a.js"
+    "static/js/main.5eba2dc5.js"
   ]
 }
