@@ -1,5 +1,5 @@
 import useResolution from '../../hooks/useResolution';
-
+import { useState, useEffect } from 'react';
 import { ArrowRightIcon } from '../SVG/SVG';
 
 import './Banner.scss';
@@ -7,10 +7,23 @@ import './Banner.scss';
 const Banner = () => {
 
     const {isMobile, isDesktop} = useResolution();
-    const background = isMobile ? 'mobile' : isDesktop ? 'desktop' : 'tablet'
+    const [background, setBackground] = useState('initial');
+
+    const changeBg = () => {
+        setTimeout(() => {
+            setBackground(background === 'initial' ? 'second' : 'initial');
+        }, 5000)
+    };
+     
+    useEffect(() => {
+        changeBg();
+    },[background]);
+
+
+    const backgroundClassName = isMobile ? `${background}-bg-mobile` : isDesktop ? `${background}-bg-desktop` : `${background}-bg-tablet`
 
     return (
-        <div className={`banner ${background}`}>
+        <div className={`banner ${backgroundClassName}`}>
             {isDesktop || isMobile
                 ? <ul className="banner__nav">
                     <li className="banner__nav_item"><a href="#">Главная</a></li>

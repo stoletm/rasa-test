@@ -10,7 +10,6 @@ const BestsellerCard = (props) => {
 
     const {onNext, onPrev, lastItem, firstItem, source} = useSlider(img)
 
-    const hiddenStyle = {opacity: 0}
 
     return (
         <div className="bestseller">
@@ -18,30 +17,31 @@ const BestsellerCard = (props) => {
                 {isDesktop
                     ? <>
                         <button 
-                            style={firstItem ? hiddenStyle : null}
-                            onClick={() => onPrev()}>
+                            style={firstItem ? {visibility: 'hidden'} : null}
+                            onClick={() => onPrev()}
+                        >
                             <BigArrowLeftIcon/>
                         </button>
                             <a href="#">
-                                <img src={source} alt="title" />
+                                <img src={source} alt="title" width={309}/>
                             </a>
                         <button 
-                            style={lastItem ? hiddenStyle : null}
+                            style={lastItem ? {visibility: 'hidden'} : null}
                             onClick={() => onNext()}>
                             <BigArrowRightIcon/>
                         </button>
                     </>
                     : <>
                         <button 
-                            style={firstItem ? hiddenStyle : null}
+                            style={firstItem ? {visibility: 'hidden'} : null}
                             onClick={() => onPrev()}>
                             <ArrowLeftIcon/>
                         </button>
                             <a href="#">
-                                <img src={source} alt="title" />
+                                <img src={source} alt="title" width={256} />
                             </a>
                         <button 
-                            style={lastItem ? hiddenStyle : null}
+                            style={lastItem ? {visibility: 'hidden'} : null}
                             onClick={() => onNext()}>
                             <ArrowRightIcon color="black"/>
                         </button>

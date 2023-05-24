@@ -56,7 +56,7 @@
     }
 }
 
-.desktop {
+.initial-bg-desktop {
     background: url('../../resources/images/BG/Desktop-Tablet.png') no-repeat right;
     height: 380px;
     min-width: 1440px;
@@ -66,15 +66,43 @@
     }
 }
 
-.tablet {
+.initial-bg-tablet {
     background: url('../../resources/images/BG/Desktop-Tablet.png') no-repeat;
     background-position: -200px -0px;
     padding: 20px 17px;
     min-height: 327px;
 }
 
-.mobile {
+.initial-bg-mobile {
     background: url('../../resources/images/BG/Mobile.png') no-repeat 0 -20px;
+    background-size: cover;
+    min-height: 450px;
+    background-position: center;
+    padding: 20px 30px 20px 16px;
+}
+
+.second-bg-desktop {
+    background: url('../../resources/images/BG/nature.jpeg') no-repeat;
+    height: 380px;
+    min-width: 1440px;
+    background-size: cover;
+    background-position: 0px -300px;
+    padding: 20px 60px;
+    @media (min-width:1440px) {
+        background-position: 0 -500px;
+    }
+}
+
+.second-bg-tablet {
+    background: url('../../resources/images/BG/nature.jpeg') no-repeat;
+    background-position: 0 -100px;
+    padding: 20px 17px;
+    background-size: cover;
+    min-height: 327px;
+}
+
+.second-bg-mobile {
+    background: url('../../resources/images/BG/nature.jpeg') no-repeat 0 -20px;
     background-size: cover;
     min-height: 450px;
     background-position: center;

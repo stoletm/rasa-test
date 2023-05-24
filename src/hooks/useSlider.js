@@ -9,15 +9,19 @@ const useSlider = (data) => {
 
     
     const onNext = () => {
-        if (index < (data.length)) {
-            setIndex((index) => index + 1)
-        } else setLastItem(true)
+        if (!lastItem) {
+            if (index < (data.length)) {
+                setIndex((index) => index + 1)
+            } else setLastItem(true)
+        }
     }
 
     const onPrev = () => {
-        if (index > 0) {
-            setIndex((index) => index - 1);
-        } else setFirstItem(true)
+        if (!firstItem) {
+            if (index > 0) {
+                setIndex((index) => index - 1);
+            } else setFirstItem(true)
+        }
     }
 
 

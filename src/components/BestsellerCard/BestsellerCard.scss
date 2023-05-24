@@ -33,7 +33,7 @@
             background: none;
             border: none;
         }
-        img {
+        &_image {
             max-width: 256px;
             @media (min-width: 1199px) {
                 max-width: 310px;
