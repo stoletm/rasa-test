@@ -1,5 +1,6 @@
 import useResolution from '../../hooks/useResolution';
-import { ArrowLeftIcon, ArrowRightIcon, LinkArrowIcon, BigArrowRightIcon } from '../SVG/SVG';
+import useSlider from '../../hooks/useSlider';
+import { ArrowLeftIcon, ArrowRightIcon, LinkArrowIcon, BigArrowRightIcon, BigArrowLeftIcon } from '../SVG/SVG';
 import './BestsellerCard.scss';
 
 const BestsellerCard = (props) => {
@@ -7,22 +8,44 @@ const BestsellerCard = (props) => {
 
     const { isDesktop } = useResolution();
 
+    const {onNext, onPrev, lastItem, firstItem, source} = useSlider(img)
+
+    const hiddenStyle = {opacity: 0}
+
     return (
         <div className="bestseller">
             <div className="bestseller__carousel">
                 {isDesktop
                     ? <>
-                        <a href="#">
-                            <img src={img} alt="title" />
-                        </a>
-                        <BigArrowRightIcon/>
+                        <button 
+                            style={firstItem ? hiddenStyle : null}
+                            onClick={() => onPrev()}>
+                            <BigArrowLeftIcon/>
+                        </button>
+                            <a href="#">
+                                <img src={source} alt="title" />
+                            </a>
+                        <button 
+                            style={lastItem ? hiddenStyle : null}
+                            onClick={() => onNext()}>
+                            <BigArrowRightIcon/>
+                        </button>
                     </>
                     : <>
-                        <ArrowLeftIcon/>
-                        <a href="#">
-                            <img src={img} alt="title" />
-                        </a>
-                        <ArrowRightIcon color="black"/>
+                        <button 
+                            style={firstItem ? hiddenStyle : null}
+                            onClick={() => onPrev()}>
+                            <ArrowLeftIcon/>
+                        </button>
+                            <a href="#">
+                                <img src={source} alt="title" />
+                            </a>
+                        <button 
+                            style={lastItem ? hiddenStyle : null}
+                            onClick={() => onNext()}>
+                            <ArrowRightIcon color="black"/>
+                        </button>
+                        
                     </>
                 }
             </div>

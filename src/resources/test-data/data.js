@@ -134,18 +134,18 @@ export const bestsellersData = [
         price: '1 316 000',
         title: 'Renault Arkana drive',
         description: 'Купе-кроссовер Renault ARKANA — автомобиль, созданный с чистого листа. В нем все по-новому: от дизайна кузова до эргономики салона. Получилось эмоционально и надежно — оцените сами!',
-        img: imgOne
+        img: [imgOne, imgTwo, imgThree]
     },
     {
         price: '2 395 000',
         title: 'Volkswagen Tiguan PA',
         description: 'Купе-кроссовер Renault ARKANA — автомобиль, созданный с чистого листа. В нем все по-новому: от дизайна кузова до эргономики салона. Получилось эмоционально и надежно — оцените сами!',
-        img: imgTwo
+        img: [imgTwo, imgOne, imgThree]
     },
     {
         price: '8 188 000',
         title: 'BMW X7',
         description: 'Купе-кроссовер Renault ARKANA — автомобиль, созданный с чистого листа. В нем все по-новому: от дизайна кузова до эргономики салона. Получилось эмоционально и надежно — оцените сами!',
-        img: imgThree
+        img: [imgThree, imgTwo, imgOne]
     }
 ]
