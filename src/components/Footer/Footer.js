@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import useResolution from '../../hooks/useResolution';
 
-import { ArrowDownIcon, OKIcon, TelegramIcon, TwitterIcon, VKIcon } from '../SVG/SVG';
+import { ArrowDownIcon, ArrowRightIcon, OKIcon, TelegramIcon, TwitterIcon, VKIcon, ArrowUpIcon } from '../SVG/SVG';
 
 import './Footer.scss';
 
@@ -101,7 +101,7 @@ const MobileView = () => {
                     onClick={() => onPrivatesToggle()}
                 >
                     Частным лицам
-                    <ArrowDownIcon/>
+                    {privates ? <ArrowUpIcon color={'black'}/> : <ArrowDownIcon color={'black'}/>}
                 </p>
                 
                 {privates 
@@ -145,7 +145,7 @@ const MobileView = () => {
                     onClick={() => onBusinessToggle()}
                 >
                     Бизнесу
-                    <ArrowDownIcon/>    
+                    {business ? <ArrowUpIcon color={'black'}/> : <ArrowDownIcon color={'black'}/>}    
                 </p>
                 {business
                     ? <ul className="navigation__list">
@@ -191,7 +191,7 @@ const MobileView = () => {
                     onClick={() => onAboutToggle()}
                 >
                     О банке
-                    <ArrowDownIcon/>
+                    {about ? <ArrowUpIcon color={'black'}/> : <ArrowDownIcon color={'black'}/>}
                 </p>
                 {about
                     ? <ul className="navigation__list">

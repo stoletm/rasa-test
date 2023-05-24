@@ -24,11 +24,15 @@ export const ArrowRightIcon = (props) => {
     );
 }
 
-export const ArrowUpIcon = () => (
-    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M15.25 14.25L12 10.75L8.75 14.25" stroke="#760135" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-    </svg>
-);
+export const ArrowUpIcon = (props) => {
+    const defaultColor = '#760135'
+    
+    return (
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15.25 14.25L12 10.75L8.75 14.25" stroke={props.color ? props.color : defaultColor} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+        </svg>
+    )
+};
 
 export const BigArrowLeftIcon = () => (
     <svg width="43" height="44" viewBox="0 0 43 44" fill="none" xmlns="http://www.w3.org/2000/svg">
