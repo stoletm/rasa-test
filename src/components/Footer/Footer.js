@@ -229,7 +229,7 @@ const MobileView = () => {
                 ? <div className="navigation__moreinfo">
                     <p className="navigation__title">
                         Дополнительные пункты
-                        <ArrowDownIcon/> 
+                        <ArrowDownIcon color={'black'}/> 
                     </p>
                 </div>
                 : null}
