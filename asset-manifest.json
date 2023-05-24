@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/rasa-test/static/css/main.4bc56516.css",
-    "main.js": "/rasa-test/static/js/main.b23ab569.js",
+    "main.css": "/rasa-test/static/css/main.bc13be51.css",
+    "main.js": "/rasa-test/static/js/main.d38b2e3a.js",
     "static/media/Mobile.png": "/rasa-test/static/media/Mobile.5c486cc5904629cefacb.png",
     "static/media/Desktop-Tablet.png": "/rasa-test/static/media/Desktop-Tablet.ee84707727096b29878a.png",
     "static/media/Honda Freed.jpg": "/rasa-test/static/media/Honda Freed.cc369ffa3d55699d6a24.jpg",
@@ -14,15 +14,16 @@
     "static/media/Mercedes-benz Gle 300 D 4matic Sport.jpg": "/rasa-test/static/media/Mercedes-benz Gle 300 D 4matic Sport.d25cd789939aa782e760.jpg",
     "static/media/Mercedes-benz Gle 350 D 4matic купе.jpg": "/rasa-test/static/media/Mercedes-benz Gle 350 D 4matic купе.a9df644ea9184988cbfe.jpg",
     "static/media/Renault Arkana drive.jpg": "/rasa-test/static/media/Renault Arkana drive.2e7cd2214b10f5d7fbaf.jpg",
+    "static/media/nature.jpeg": "/rasa-test/static/media/nature.9eb493bde6a4006ff112.jpeg",
     "static/media/Volkswagen Tiguan PA.jpg": "/rasa-test/static/media/Volkswagen Tiguan PA.6aa5cbf72a13d9a55b07.jpg",
     "static/media/BMW X7.jpg": "/rasa-test/static/media/BMW X7.3fe0f4695125234beed5.jpg",
     "index.html": "/rasa-test/index.html",
-    "static/media/select-arrow.svg": "/rasa-test/static/media/select-arrow.173f709ee8f9ad2e5d96.svg",
-    "main.4bc56516.css.map": "/rasa-test/static/css/main.4bc56516.css.map",
-    "main.b23ab569.js.map": "/rasa-test/static/js/main.b23ab569.js.map"
+    "static/media/select-arrow.svg": "/rasa-test/static/media/select-arrow.3b2bf07f3bab2a757524.svg",
+    "main.bc13be51.css.map": "/rasa-test/static/css/main.bc13be51.css.map",
+    "main.d38b2e3a.js.map": "/rasa-test/static/js/main.d38b2e3a.js.map"
   },
   "entrypoints": [
-    "static/css/main.4bc56516.css",
-    "static/js/main.b23ab569.js"
+    "static/css/main.bc13be51.css",
+    "static/js/main.d38b2e3a.js"
   ]
 }
